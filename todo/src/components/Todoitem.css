@@ -22,7 +22,7 @@
 
 .content svg {
   font-size: 1.5rem;
-  color: green;
+  color: rgb(255, 0, 136);
 }
 .content .text {
   margin-left: 0.5rem;
@@ -30,7 +30,7 @@
 }
 
 .content.checked .text {
-  color: green;
+  color: rgb(255, 0, 136);
   text-decoration: line-through;
   cursor: pointer;
   opacity: 0.8;

@@ -4,12 +4,39 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
-
   padding-bottom: 20px;
   font-size: 1.5rem;
   font-weight: bold;
   color: green;
+  margin-bottom: 10px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  color: green;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-i {
+  color: rgb(255, 0, 136);
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.time-i {
+  color: rgb(255, 0, 136);
+  margin-right: 10px;
+  margin-left: 15px;
 }

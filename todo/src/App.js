@@ -7,6 +7,8 @@ import Template from './components/Template';
 import TodoList from './components/TodoList';
 import { MdAddCircle } from 'react-icons/md';
 import TodoInsert from './components/TodoInsert';
+import { FcTodoList } from 'react-icons/fc';
+import { TbBrowserPlus } from 'react-icons/tb';
 
 let nextId = 4;
 
@@ -70,7 +72,7 @@ function App() {
         onChangeSelectedTodo={onChangeSelectedTodo}
       />
       <div className='add-todo-button' onClick={onInsertToggle}>
-        <MdAddCircle />
+        <TbBrowserPlus className='addbtn' />
       </div>
       {inserToggle && (
         <TodoInsert
